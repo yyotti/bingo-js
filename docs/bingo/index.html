@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Bingo!!</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/bingo/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+  -->
+
+</head>
+<body onload="init()">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="one-third column"><br></div>
+      <div class="one-third column content">
+        <div class="ball">
+          <div id="ball-num"></div>
+        </div>
+
+        <div class="buttons">
+          <button type="button" class="button-primary" id="exec">抽　選</button>
+          <button type="button" id="clear">初期化</button>
+        </div>
+      </div>
+      <div class="one-third column"><br></div>
+    </div>
+    <div class="row">
+      <div class="history">
+        <table>
+          <tbody>
+            <tr>
+              <td class="num" id="num-1">1</td>
+              <td class="num" id="num-2">2</td>
+              <td class="num" id="num-3">3</td>
+              <td class="num" id="num-4">4</td>
+              <td class="num" id="num-5">5</td>
+              <td class="num" id="num-6">6</td>
+              <td class="num" id="num-7">7</td>
+              <td class="num" id="num-8">8</td>
+              <td class="num" id="num-9">9</td>
+              <td class="num" id="num-10">10</td>
+            </tr>
+            <tr>
+              <td class="num" id="num-11">11</td>
+              <td class="num" id="num-12">12</td>
+              <td class="num" id="num-13">13</td>
+              <td class="num" id="num-14">14</td>
+              <td class="num" id="num-15">15</td>
+              <td class="num" id="num-16">16</td>
+              <td class="num" id="num-17">17</td>
+              <td class="num" id="num-18">18</td>
+              <td class="num" id="num-19">19</td>
+              <td class="num" id="num-20">20</td>
+            </tr>
+            <tr>
+              <td class="num" id="num-21">21</td>
+              <td class="num" id="num-22">22</td>
+              <td class="num" id="num-23">23</td>
+              <td class="num" id="num-24">24</td>
+              <td class="num" id="num-25">25</td>
+              <td class="num" id="num-26">26</td>
+              <td class="num" id="num-27">27</td>
+              <td class="num" id="num-28">28</td>
+              <td class="num" id="num-29">29</td>
+              <td class="num" id="num-30">30</td>
+            </tr>
+            <tr>
+              <td class="num" id="num-31">31</td>
+              <td class="num" id="num-32">32</td>
+              <td class="num" id="num-33">33</td>
+              <td class="num" id="num-34">34</td>
+              <td class="num" id="num-35">35</td>
+              <td class="num" id="num-36">36</td>
+              <td class="num" id="num-37">37</td>
+              <td class="num" id="num-38">38</td>
+              <td class="num" id="num-39">39</td>
+              <td class="num" id="num-40">40</td>
+            </tr>
+            <tr>
+              <td class="num" id="num-41">41</td>
+              <td class="num" id="num-42">42</td>
+              <td class="num" id="num-43">43</td>
+              <td class="num" id="num-44">44</td>
+              <td class="num" id="num-45">45</td>
+              <td class="num" id="num-46">46</td>
+              <td class="num" id="num-47">47</td>
+              <td class="num" id="num-48">48</td>
+              <td class="num" id="num-49">49</td>
+              <td class="num" id="num-50">50</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="./js/index.js"></script>
+</body>
+</html>

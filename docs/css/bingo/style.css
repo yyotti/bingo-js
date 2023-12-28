@@ -1,0 +1,55 @@
+.ball {
+  background: #fff;
+  border-radius: 50%;
+  width: 100%;
+  padding-top: 100%;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.ball #ball-num {
+  background: inherit;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  font-size: 7em;
+  width: 50%;
+  height: 50%;
+  margin-top: -10%;
+}
+
+.content .buttons {
+  width: 100%;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.history {
+  width: 100%;
+  text-align: center;
+}
+
+.history table {
+  margint: 0;
+  width: 100%;
+}
+
+.history table tr {
+  border: 3px solid #000;
+}
+
+.history table tr td {
+  border: 3px solid #000;
+  width: 10%;
+  padding: 0;
+  height: 50px;
+  text-align: center;
+  font-size: 2em;
+  background: #fff;
+}
+
+.history table tr td.selected {
+  background: #3f9;
+}
