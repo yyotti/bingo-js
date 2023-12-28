@@ -1,1 +1,1 @@
-# bingo-js
+# yyotti.github.io
